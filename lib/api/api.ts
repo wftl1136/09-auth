@@ -6,7 +6,7 @@ if (!apiUrl) {
   throw new Error("NEXT_PUBLIC_API_URL is not defined. Додайте цю змінну у .env.local");
 }
 
-const baseURL = apiUrl;
+const baseURL = apiUrl + "/api";
 
 export const api = axios.create({
   baseURL,
