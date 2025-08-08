@@ -39,6 +39,7 @@
   animation: fadeInUp 1s 0.2s forwards;
 }
 
+
 @keyframes fadeInUp {
   to {
     opacity: 1;
